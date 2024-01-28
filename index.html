@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
+<body>
+    <p id="dev">Developed with <span>❤</span> by <a href="https://github.com/1998tapan/" target="_blank">Tapan
+            Dabrai</a>
+    </p>
+
+    <header id="header" class="center-align">
+        <img id=" header-image" src="https://seeklogo.com/images/P/Pokemon-logo-3618A9643C-seeklogo.com.png"
+            alt="Pokemon">
+    </header>
+
+    <div class="container">
+
+        <section class="modal hidden">
+            <div id="modal-poke-title">
+                <div id="modal-poke-id"></div>
+                <div id="modal-poke-name"></div>
+                <span id="closeModal" class="material-symbols-outlined">close</span>
+            </div>
+            <div id="modal-details">
+                <div class="modal-pokemon-img">
+                    <img id="modalPokeImg" />
+                </div>
+                <div class="modal-pokemon-info">
+                    <div id="modal-poke-type"></div>
+                    <div id="modal-poke-hw"></div>
+                    <p>Moves:</p>
+                    <ul id="modal-poke-moves"></ul>
+                </div>
+            </div>
+        </section>
+        <div class="overlay hidden"></div>
+</body>
+
+</html>
